@@ -45,14 +45,11 @@ const Navbar = () => {
           <Link to="/">Most Popular</Link>
           <Link to="/">About</Link>
 
-          <SignedOut>
-            <Link to="/login">
-              <button className="py-2 px-4 rounded-3xl">Login</button>
-            </Link>
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
+          <Link to="/login" onClick={() => setOpen(false)}>
+            <button className="py-2 px-4 rounded-3xl">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
       {/* DESKTOP MENU */}
