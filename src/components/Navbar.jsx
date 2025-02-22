@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* LOGO */}
       <Link
         to="/"
-        className="flex items-center gap-4 text-md md:text-2xl font-bold"
+        className="flex items-center gap-4 text-sm md:text-2xl font-bold"
       >
         <Image
           path="/logo.avif"
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         {/* MOBILE LINK LIST */}
         <div
-          className={`w-full h-screen flex flex-col items-center bg-orange-50 justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out ${
+          className={`w-full h-screen flex flex-col items-center bg-orange-50 justify-center gap-8 font-medium text-lg absolute top-20 transition-all ease-in-out ${
             open ? "-right-0" : "-right-[110%]"
           }`}
         >
