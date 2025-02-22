@@ -44,9 +44,15 @@ const Navbar = () => {
           <Link to="/">Trending</Link>
           <Link to="/">Most Popular</Link>
           <Link to="/">About</Link>
-          <Link to="">
-            <button className="py-2 px-4 rounded-3xl">Login</button>
-          </Link>
+
+          <SignedOut>
+            <Link to="/login">
+              <button className="py-2 px-4 rounded-3xl">Login</button>
+            </Link>
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>
       </div>
       {/* DESKTOP MENU */}

@@ -27,3 +27,7 @@ a {
 a:hover{
   color: #92875c;
 }
+
+.animatedButton {
+animation-duration:20000ms;
+}
