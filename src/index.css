@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #f9f6ec; /* Very Light Yellowed Paper */
+  background-color: #fff7ed; /* Very Light Yellowed Paper */
   color: #787673; /* Soft Warm Gray (Faded Ink) */
   width: 100vw;
   overflow-x: hidden;

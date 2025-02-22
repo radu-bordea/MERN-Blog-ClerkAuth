@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* LOGO */}
       <Link
         to="/"
-        className="flex items-center gap-4 text-lg md:text-2xl font-bold"
+        className="flex items-center gap-4 text-md md:text-2xl font-bold"
       >
         <Image
           path="/logo.avif"
@@ -36,8 +36,8 @@ const Navbar = () => {
         </div>
         {/* MOBILE LINK LIST */}
         <div
-          className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out ${
-            open ? "-right-0" : "-right-[%100]"
+          className={`w-full h-screen flex flex-col items-center bg-orange-50 justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out ${
+            open ? "-right-0" : "-right-[110%]"
           }`}
         >
           <Link to="/">Home</Link>
@@ -56,14 +56,14 @@ const Navbar = () => {
         </div>
       </div>
       {/* DESKTOP MENU */}
-      <div className="hidden md:flex items-center gap-8 xl:gap-12 font medium">
+      <div className="hidden md:flex items-center gap-8 xl:gap-12 font medium bg-orange-50">
         <Link to="/">Home</Link>
         <Link to="/">Trending</Link>
         <Link to="/">Most Popular</Link>
         <Link to="/">About</Link>
 
         <SignedOut>
-          <Link to="/login">
+          <Link to="/login" className="block py-2 text-lg">
             <button className="py-2 px-4 rounded-3xl">Login</button>
           </Link>
         </SignedOut>
