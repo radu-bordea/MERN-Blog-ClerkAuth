@@ -45,9 +45,14 @@ const Navbar = () => {
           <Link to="/">Most Popular</Link>
           <Link to="/">About</Link>
 
-          <Link to="/login" onClick={() => setOpen(false)}>
-            <button className="py-2 px-4 rounded-3xl">Login</button>
-          </Link>
+          <SignedOut>
+            <Link to="/login" className="block py-2 text-lg">
+              <button className="py-2 px-4 rounded-3xl">Login</button>
+            </Link>
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>
       </div>
       {/* DESKTOP MENU */}
@@ -57,9 +62,14 @@ const Navbar = () => {
         <Link to="/">Most Popular</Link>
         <Link to="/">About</Link>
 
-        <Link to="/login" onClick={() => setOpen(false)}>
-          <button className="py-2 px-4 rounded-3xl">Login</button>
-        </Link>
+        <SignedOut>
+          <Link to="/login" className="block py-2 text-lg">
+            <button className="py-2 px-4 rounded-3xl">Login</button>
+          </Link>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </div>
     </div>
   );
