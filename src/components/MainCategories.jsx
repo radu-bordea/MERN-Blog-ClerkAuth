@@ -13,34 +13,40 @@ const MainCategories = () => {
           All Posts
         </Link>
         <Link
-          to="/posts?cat=favoriteplaces"
+          to="/posts?cat=lifestyle"
           className="hover:bg-amber-50 rounded-full px-4 py-2"
         >
-          Favorite Places
+          Lifestyle
         </Link>
         <Link
-          to="/posts?cat=eat"
+          to="/posts?cat=calatorii"
           className="hover:bg-amber-50 rounded-full px-4 py-2"
         >
-          Food & Drinks
+          Calatorii
         </Link>
         <Link
-          to="/posts?cat=tips"
+          to="/posts?cat=literatura"
           className="hover:bg-amber-50 rounded-full px-4 py-2"
         >
-          Travel Tips & Hacks
+          Literatura
         </Link>
         <Link
-          to="/posts?cat=gallery"
+          to="/posts?cat=cinema"
           className="hover:bg-amber-50 rounded-full px-4 py-2"
         >
-          Gallery
+          Cinema
+        </Link>
+        <Link
+          to="/posts?cat=colaboreaza"
+          className="hover:bg-amber-50 rounded-full px-4 py-2"
+        >
+          Colaboreaza cu mine
         </Link>
       </div>
       <span className="text-xl font-medium">|</span>
       {/* search  */}
       <div className="bg-gray-100 p-2 rounded-full flex items-center gap-8">
-        <IoSearch className="text-amber-600 text-xl"/>
+        <IoSearch className="text-amber-600 text-xl" />
         <input
           type="text"
           placeholder="search a post..."

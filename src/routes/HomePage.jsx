@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaFeatherAlt } from "react-icons/fa";
 import MainCategories from "../components/MainCategories";
 import FeaturedPosts from "../components/FeaturedPosts";
+import PostList from "../components/PostList";
 
 const HomePage = () => {
   return (
@@ -59,6 +60,7 @@ const HomePage = () => {
       <FeaturedPosts />
       {/* POST LIST */}
       <div className="my-8 text-2xl text-gray-600">Recent Posts</div>
+      <PostList/>
     </div>
   );
 };
