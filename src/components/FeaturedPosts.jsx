@@ -11,7 +11,7 @@ const FeaturedPosts = () => {
         <Image
           path="/macedonia3.jpg"
           alt="Top post"
-          className="w-full h-48 md:h-64 lg:h-96 rounded-3xl"
+          className="w-full h-48 md:h-96 lg:h-64 xl:h-96 rounded-3xl"
         />
         {/* details  */}
         <div className="flex items-center gap-4">
@@ -35,7 +35,7 @@ const FeaturedPosts = () => {
             <Image
               path="/macedonia4.jpg"
               alt="second post"
-              className="rounded-3xl object-cover w-full h-24 sm:h-32 md:h-48 "
+              className="rounded-3xl object-cover w-full h-20 sm:h-32 md:h-40 lg:h-28 xl:h-32"
             />
           </div>
           {/* details and title  */}
@@ -59,7 +59,7 @@ const FeaturedPosts = () => {
             <Image
               path="/macedonia1.jpg"
               alt="second post"
-              className="rounded-3xl object-cover w-full h-24 sm:h-32 md:h-48 "
+              className="rounded-3xl object-cover w-full h-20 sm:h-32 md:h-40 lg:h-28 xl:h-32"
             />
           </div>
           {/* details and title  */}
@@ -84,7 +84,7 @@ const FeaturedPosts = () => {
             <Image
               path="/macedonia5.jpg"
               alt="second post"
-              className="rounded-3xl object-cover w-full h-24 sm:h-32 md:h-48 "
+              className="rounded-3xl object-cover w-full h-20 sm:h-32 md:h-40 lg:h-28 xl:h-32"
             />
           </div>
           {/* details and title  */}

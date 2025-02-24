@@ -58,6 +58,7 @@ const HomePage = () => {
       {/* FEATURED POSTS */}
       <FeaturedPosts />
       {/* POST LIST */}
+      <div className="my-8 text-2xl text-gray-600">Recent Posts</div>
     </div>
   );
 };
