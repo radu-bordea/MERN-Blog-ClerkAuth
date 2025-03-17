@@ -14,3 +14,4 @@
 
 # clerk
 - npm install -f @clerk/clerk-react
+- npm i -f react-quill-new

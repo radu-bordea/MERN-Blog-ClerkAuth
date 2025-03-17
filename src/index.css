@@ -21,13 +21,25 @@ button:hover {
 }
 
 a {
-  color: #6a6662; 
+  color: #6a6662;
 }
 
-a:hover{
+a:hover {
   color: #92875c;
 }
 
 .animatedButton {
-animation-duration:20000ms;
+  animation-duration: 20000ms;
+}
+
+.ql-container {
+  border: none !important;
+}
+
+.ql-toolbar {
+  border: none !important;
+}
+
+.ql-editor {
+  border: none !important;
 }
