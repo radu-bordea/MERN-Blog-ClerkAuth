@@ -23,4 +23,5 @@
 - npm install "express@>=5.0.1" --save
 - add "type": "module" // in package.json
 - node --watch index.js
+-  node --env-file .env  --watch index.js
 - npm install mongoose
